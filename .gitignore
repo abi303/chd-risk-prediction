@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (keep CSV in repo for reproducibility)
+# Uncomment if you don't want to include the dataset
+# *.csv
+
+# Generated plots (optional - uncomment if you don't want plots in repo)
+*.png
+*.jpg
+*.jpeg
+
+# Documentation (keeping these)
+# *.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+
+# Logs
+*.log
